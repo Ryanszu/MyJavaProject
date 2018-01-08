@@ -2,6 +2,10 @@ package set1;
 
 import java.util.Arrays;
 
+
+
+import set1.MethodDemo;
+
 public class Sort {
 
 	public static void main(String[] args) {
@@ -40,6 +44,7 @@ public class Sort {
 		}
 		System.out.println();
 		
+		MethodDemo.PrintWords(3, "睡觉！");
 		
 	}
 

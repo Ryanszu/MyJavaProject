@@ -1,6 +1,6 @@
 package set1;
 
-public class method {
+public class MethodDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

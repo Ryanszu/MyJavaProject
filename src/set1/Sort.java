@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 
 
-import set1.MethodDemo;
+
 
 public class Sort {
 
@@ -44,7 +44,7 @@ public class Sort {
 		}
 		System.out.println();
 		
-		MethodDemo.PrintWords(3, "睡觉！");
+		
 		
 	}
 

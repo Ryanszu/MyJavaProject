@@ -16,12 +16,23 @@ public class HexToDecimalDemo {
 		System.out.println("请输入一个整形数字");
 		int decNum = input.nextInt();
 		
-		String Hex = Integer.toHexString(decNum);
+		String Hex = DecToHex(decNum);
 		
 		System.out.println("对应16进制为" + Hex);
 		
 		input.close();
 
 	}
+	
+	/**
+	 * @param decNum 整形变量
+	 * @return String形式返回16进制值
+	 */
+	private static String DecToHex (int decNum) {
+		String Hex = Integer.toHexString(decNum);
+		return Hex;
+	}
 
 }
+
+

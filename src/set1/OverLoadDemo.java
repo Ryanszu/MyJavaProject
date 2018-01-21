@@ -11,6 +11,7 @@ public class OverLoadDemo {
 		// TODO Auto-generated method stub
 		
 		printLog("测试日志", "2", "INFO");
+		printLog("测试1","2");
 		printLog("测试2");
 
 	}
@@ -20,9 +21,16 @@ public class OverLoadDemo {
 		System.out.println("【" + type + "】【" + lev + "】" + msg);
 	}
 	
+	public static void printLog(String msg, String lev) {
+		printLog(msg, lev, "DEFAULT");
+	}
+	
+	
 	public static void printLog(String msg) {
 		printLog(msg, "1", "DEFAULT");
 	}
+	
+	
 	
 
 }

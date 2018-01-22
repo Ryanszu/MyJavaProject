@@ -34,6 +34,8 @@ public class PrintCalendarDemo {
 		 * 
 		 * */	
 		GetInput();
+		
+		
 //		用户输入年份月份到1900-01-01的总天数
 		int sum =0;
 		
@@ -119,8 +121,13 @@ public class PrintCalendarDemo {
 		year = input.nextInt();
 		System.out.println("请输入月份：");
 		month = input.nextInt();
-		
+		if (year < 1900 || month >12 || month <1) {
+			System.out.println("输入的年份/月份错误。");
+			GetInput();
+		}
 		input.close();
+		
+		input = null;
 	}
 
 }

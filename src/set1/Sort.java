@@ -14,6 +14,9 @@ public class Sort {
 		//Sort Practise
 			int nums[] = new int[100];
 			
+			System.out.println("测试" + 2%7);
+			
+			
 			for (int i = 0; i < nums.length; i++) {
 				nums[i] = (int)(Math.random()*100%101);
 			}
